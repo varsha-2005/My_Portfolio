@@ -13,7 +13,7 @@ import {
 } from "react-icons/fa";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { userData } from "@/lib/datas/UserData";
+import { userData } from "@/lib/data1/UserData"
 
 export default function MSideBar() {
   const [showContactInfo, setShowContactInfo] = useState(false);
